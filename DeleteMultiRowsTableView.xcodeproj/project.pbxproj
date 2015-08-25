@@ -13,19 +13,8 @@
 		AA17790C1B8B140800803897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA17790A1B8B140800803897 /* Main.storyboard */; };
 		AA17790E1B8B140800803897 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA17790D1B8B140800803897 /* Images.xcassets */; };
 		AA1779111B8B140800803897 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA17790F1B8B140800803897 /* LaunchScreen.xib */; };
-		AA17791D1B8B140800803897 /* testeditTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA17791C1B8B140800803897 /* testeditTests.m */; };
 		AA1779281B8B14C600803897 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1779271B8B14C600803897 /* CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AA1779171B8B140800803897 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA1778F51B8B140800803897 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AA1778FC1B8B140800803897;
-			remoteInfo = testedit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AA1778FD1B8B140800803897 /* DeleteMultiRowsTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeleteMultiRowsTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,7 +27,6 @@
 		AA17790B1B8B140800803897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA17790D1B8B140800803897 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AA1779101B8B140800803897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		AA1779161B8B140800803897 /* DeleteMultiRowsTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeleteMultiRowsTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA17791B1B8B140800803897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA17791C1B8B140800803897 /* testeditTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testeditTests.m; sourceTree = "<group>"; };
 		AA1779261B8B14C600803897 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
@@ -47,13 +35,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		AA1778FA1B8B140800803897 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA1779131B8B140800803897 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				AA1778FD1B8B140800803897 /* DeleteMultiRowsTableView.app */,
-				AA1779161B8B140800803897 /* DeleteMultiRowsTableViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,24 +124,6 @@
 			productReference = AA1778FD1B8B140800803897 /* DeleteMultiRowsTableView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AA1779151B8B140800803897 /* DeleteMultiRowsTableViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA1779231B8B140800803897 /* Build configuration list for PBXNativeTarget "DeleteMultiRowsTableViewTests" */;
-			buildPhases = (
-				AA1779121B8B140800803897 /* Sources */,
-				AA1779131B8B140800803897 /* Frameworks */,
-				AA1779141B8B140800803897 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AA1779181B8B140800803897 /* PBXTargetDependency */,
-			);
-			name = DeleteMultiRowsTableViewTests;
-			productName = testeditTests;
-			productReference = AA1779161B8B140800803897 /* DeleteMultiRowsTableViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,10 +135,6 @@
 				TargetAttributes = {
 					AA1778FC1B8B140800803897 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					AA1779151B8B140800803897 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = AA1778FC1B8B140800803897;
 					};
 				};
 			};
@@ -194,7 +152,6 @@
 			projectRoot = "";
 			targets = (
 				AA1778FC1B8B140800803897 /* DeleteMultiRowsTableView */,
-				AA1779151B8B140800803897 /* DeleteMultiRowsTableViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -207,13 +164,6 @@
 				AA17790C1B8B140800803897 /* Main.storyboard in Resources */,
 				AA1779111B8B140800803897 /* LaunchScreen.xib in Resources */,
 				AA17790E1B8B140800803897 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA1779141B8B140800803897 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,23 +181,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA1779121B8B140800803897 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA17791D1B8B140800803897 /* testeditTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AA1779181B8B140800803897 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AA1778FC1B8B140800803897 /* DeleteMultiRowsTableView */;
-			targetProxy = AA1779171B8B140800803897 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AA17790A1B8B140800803897 /* Main.storyboard */ = {
@@ -369,40 +303,6 @@
 			};
 			name = Release;
 		};
-		AA1779241B8B140800803897 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = testeditTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = DeleteMultiRowsTableViewTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testedit.app/testedit";
-			};
-			name = Debug;
-		};
-		AA1779251B8B140800803897 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = testeditTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = DeleteMultiRowsTableViewTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testedit.app/testedit";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -420,15 +320,6 @@
 			buildConfigurations = (
 				AA1779211B8B140800803897 /* Debug */,
 				AA1779221B8B140800803897 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AA1779231B8B140800803897 /* Build configuration list for PBXNativeTarget "DeleteMultiRowsTableViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA1779241B8B140800803897 /* Debug */,
-				AA1779251B8B140800803897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
